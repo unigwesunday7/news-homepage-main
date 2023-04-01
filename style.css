@@ -105,6 +105,7 @@ small {
 .aside {
     background-color: hsl(240, 100%, 5%);
     padding: 20px 30px;
+    animation: aside 1s ease-in-out 2s 1;
 }
 
 .aside_row h1 {
@@ -190,6 +191,12 @@ small {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+
+@keyframes aside {
+    0% { transform: scale(0.5); opacity: 0.0; } 
+    100% { transform: scale(1.); opacity: 1;} 
 }
 
 
